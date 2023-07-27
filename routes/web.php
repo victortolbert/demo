@@ -19,3 +19,5 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/count', CountComponent::class);
+
+Route::redirect('/', '/episodes');
